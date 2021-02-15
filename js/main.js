@@ -42,10 +42,10 @@ let counter = 0;
 function updateAttempts() {
     if (paragraphClue === "¡Has ganado campeona!") {
         counter += 0;
-        attemptsElement.innerHTML = 'Numero de intentos:' + counter;
+        attemptsElement.innerHTML = 'Numero de intentos: ' + counter;
     } else {
         counter += 1;
-        attemptsElement.innerHTML = 'Numero de intentos:' + counter;
+        attemptsElement.innerHTML = 'Numero de intentos: ' + counter;
     }
 }
 

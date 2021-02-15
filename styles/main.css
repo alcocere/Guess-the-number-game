@@ -1,54 +1,53 @@
 .page {
 	font-family: "Montserrat", sans-serif;
-	background-color: rgb(247, 247, 247);
+	background-color: rgb(29, 29, 29);
 	display: flex;
 	justify-content: center;
 	text-align: center;
-	border: solid 1px rgb(0, 202, 202);
-	text-transform: capitalize;
 	padding: 5px;
-	border-radius: 3px;
-	box-shadow: 2px 2px 2px 0px #ccc;
-	color: rgb(0, 111, 119);
+	color: rgb(243, 254, 255);
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	font-size: 20px;
+	margin-top: 100px;
 }
 
 .main__title {
-	font-size: 30px;
+	font-size: 60px;
+	color: rgb(146, 240, 226);
 }
 
 .form {
-	font-size: 18px;
+	font-size: 30px;
 }
 
 .form__input {
-	background-color: #ccc;
+	background-color: white;
 	border: none;
-	border-radius: 5px;
-	padding: 10px;
+	border-radius: 8px;
+	padding: 20px;
 }
 
 .main__clues {
-	font-size: 13px;
-	color: rgb(232, 141, 4);
+	font-size: 18px;
+	color: rgb(49, 255, 224);
 }
 .main__attempts {
-	font-size: 13px;
+	font-size: 22px;
+	margin-top: 40px;
+	border: solid 1px whitesmoke;
+	padding: 10px;
 }
 
 .form__button {
-	display: block;
 	color: white;
-	background-color: rgb(0, 202, 202);
+	background-color: rgb(35, 138, 138);
 	border: none;
-	border-radius: 15px;
-	padding: 8px 15px;
-	width: 80px;
+	border-radius: 10px;
+	padding: 18px;
+	width: 120px;
 	cursor: pointer;
-	box-shadow: 2px 2px 2px 0px rgba(204, 204, 204, 0.5);
-	margin: auto;
-	margin-top: 20px;
+	margin-top: 50px;
+	font-size: 20px;
 }
 
 .hidden {
