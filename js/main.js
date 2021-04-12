@@ -30,9 +30,9 @@ function updateClick() {
     if (inputValue === random) {
         paragraphClue("¡Enhorabuena, has ganado campeona! 🎉'");
         btnElement.classList.toggle("hidden");
-    } else if (inputValue > random) {
+    } else if (inputValue > random && inputValue <= 100) {
         paragraphClue("Pista: Demasiado alto...prueba con otro número!");
-    } else if (inputValue < random) {
+    } else if (inputValue < random && inputValue > 0) {
         paragraphClue("Pista: Demasiado bajo...prueba con otro número!");
     } else {
         (inputValue < 1 || inputValue > 100)
