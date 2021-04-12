@@ -1,46 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="./styles/main.css" />
 
-<head>
-      <meta charset="UTF-8">
-      <meta name="viewport"
-            content="width=device-width, initial-scale=1.0">
-      <link rel="preconnect"
-            href="https://fonts.gstatic.com">
-      <link rel="preconnect"
-            href="https://fonts.gstatic.com">
-      <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap"
-            rel="stylesheet">
-      <link rel="stylesheet"
-            href="./styles/main.css" />
+		<title>Guess the Number ¿?</title>
+	</head>
 
-      <title> Guess the Number ¿? </title>
-</head>
-
-<body class="page">
-
-      <main class="main">
-
-            <h1 class="main__title">Adivina el número</h1>
-            <form class="form js-form">
-                  <label for="number"
-                         class="form__label">Introduce aquí tu número:</label>
-                  <input id="number"
-                         type="number"
-                         name="number"
-                         class="js-input form__input"
-                         placeholder="Ej: 35" />
-                  <input type="button"
-                         value="Prueba"
-                         class="js-button form__button" />
-            </form>
-
-            <p class="js-clues main__clues"> Pista: Escribe el número y dale a Prueba</p>
-            <p class="js-attempts main__attempts">Número de intentos: 0 </p>
-
-      </main>
-
-      <script src="./js/main.js"></script>
-</body>
-
+	<body class="page">
+		<main class="main">
+			<h1 class="main__title">Adivina el número</h1>
+			<form class="form js-form">
+				<label for="number" class="form__label">
+					Introduce aquí tu número:
+				</label>
+				<input
+					id="number"
+					type="number"
+					name="number"
+					class="js-input form__input"
+					placeholder="Ej: 35"
+				/>
+				<button class="js-button form__button">Prueba</button>
+				<button class="resetbtn js-reset">Reset</button>
+			</form>
+			<p class="js-clues main__clues">Pista: Escribe un número entre 1 y 100</p>
+			<p class="js-attempts main__attempts">Número de intentos: 0</p>
+		</main>
+		<script src="./js/main.js"></script>
+	</body>
 </html>

@@ -24,13 +24,20 @@
 	background-color: white;
 	border: none;
 	border-radius: 8px;
-	padding: 20px;
+	padding: 12px;
+	font-size: 20px;
+	width: 50px;
+}
+
+:focus {
+	outline: 0 none;
 }
 
 .main__clues {
 	font-size: 18px;
 	color: rgb(49, 255, 224);
 }
+
 .main__attempts {
 	font-size: 22px;
 	margin-top: 40px;
@@ -43,13 +50,35 @@
 	background-color: rgb(35, 138, 138);
 	border: none;
 	border-radius: 10px;
-	padding: 18px;
+	padding: 12px;
 	width: 120px;
 	cursor: pointer;
 	margin-top: 50px;
 	font-size: 20px;
 }
 
+/* .form__button:hover {
+	background-color: black;
+	border: 1px rgb(35, 138, 138) solid;
+} */
+
 .hidden {
 	display: none;
 }
+
+.resetbtn {
+	color: white;
+	background-color: rgb(125, 182, 107);
+	border: none;
+	border-radius: 10px;
+	padding: 12px;
+	width: 80px;
+	cursor: pointer;
+	margin-top: 50px;
+	font-size: 20px;
+}
+
+/* .resetbtn:hover {
+	background-color: black;
+	border: 1px solid rgb(125, 182, 107);
+} */
