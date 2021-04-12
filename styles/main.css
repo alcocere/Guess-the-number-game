@@ -55,12 +55,12 @@
 	cursor: pointer;
 	margin-top: 50px;
 	font-size: 20px;
+	box-shadow: 5px 3px 0px rgba(35, 138, 138, 0.596);
 }
 
-/* .form__button:hover {
-	background-color: black;
-	border: 1px rgb(35, 138, 138) solid;
-} */
+.form__button:hover {
+	transform: translate(2px, 2px);
+}
 
 .hidden {
 	display: none;
@@ -76,9 +76,9 @@
 	cursor: pointer;
 	margin-top: 50px;
 	font-size: 20px;
+	box-shadow: 5px 3px 0px rgba(125, 182, 107, 0.644);
 }
 
-/* .resetbtn:hover {
-	background-color: black;
-	border: 1px solid rgb(125, 182, 107);
-} */
+.resetbtn:hover {
+	transform: translate(2px, 2px);
+}
